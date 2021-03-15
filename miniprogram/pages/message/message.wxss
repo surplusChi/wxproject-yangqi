@@ -1,0 +1,8 @@
+/* miniprogram/pages/message/message.wxss */
+.message {
+  margin: 20rpx;
+}
+.message-text {
+  font-size: 38rpx;
+  padding: 20rpx;
+}

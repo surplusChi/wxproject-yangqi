@@ -1,0 +1,12 @@
+/* miniprogram/pages/editUserInfo/name/name.wxss */
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+input {
+  margin-top: 20rpx;
+  border: 2rpx solid #cdcdcd;
+  width: 100%;
+  height: 100rpx;
+}

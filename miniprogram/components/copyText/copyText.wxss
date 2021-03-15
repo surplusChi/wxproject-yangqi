@@ -1,0 +1,5 @@
+/* components/copyText/copyText.wxss */
+
+.ico {
+  font-size: 50rpx;
+}

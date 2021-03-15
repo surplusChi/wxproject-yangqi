@@ -1,0 +1,47 @@
+/* components/removeList/removeList.wxss */
+.area {
+  height: 100rpx;
+  width: 710rpx;
+  margin: 20rpx;
+  border-bottom: 2rpx solid #cdcdcd;
+  position: relative;
+  overflow: hidden;
+}
+.view {
+  height: 100rpx;
+  width: 810rpx;
+}
+.nav {
+  width: 100rpx;
+  height: 100rpx;
+}
+.nav image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.text {
+  width: 610rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-indent: 20rpx;
+  background: #fff;
+  position:absolute;
+  left: 100rpx;
+  top: 0rpx;
+}
+.delete {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background: red;
+  color: white;
+  position:absolute;
+  left: 710rpx;
+  top: 0;
+}
+.navigator-hover {
+  color: #1296db;
+}

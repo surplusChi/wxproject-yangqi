@@ -1,0 +1,15 @@
+/* miniprogram/pages/editUserInfo/head/head.wxss */
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+image {
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 50%;
+  margin: 60rpx 125rpx;
+  display: flex;
+  justify-items: center;
+}

@@ -1,0 +1,6 @@
+<!--miniprogram/pages/editUserInfo/signature/signature.wxml-->
+<button bindtap="handleBut">设置个性签名</button>
+
+<textarea value="{{signature}}" bindinput="handleText">
+
+</textarea>

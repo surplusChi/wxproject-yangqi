@@ -1,0 +1,31 @@
+<!--components/search/search.wxml-->
+<view class="{{ isFoucs ? 'containerFoucs': 'container' }}">
+
+  <view class="search">
+    <view class="search-text">
+      <text class="iconfont iconsousuo"></text>
+      <input type="text" placeholder="搜索好友" bindfocus="handleFocus"  bindconfirm="handleConfirm" confirm-type="search" value="{{value}}"/> 
+    </view>
+    <view wx:if="{{isFoucs}}" class="search-cancel" bindtap="handleCancel">取消</view>
+  </view>
+
+  <view class="search-history">
+    <text>历史记录</text>
+    <text bindtap="handleDelete" class="iconfont iconshanchu"></text>
+  </view>
+  <view class="search-history-btn">
+    <text bindtap="handleHistoryItemDel" data-value="{{item}}" wx:for="{{historyList}}" wx:key="index">{{item}}</text>
+  </view>
+
+  <navigator wx:for="{{searchList}}" wx:key="index"  url="{{'/pages/userDetail/userDetail?userId=' + item._id }}" hover-class="navigator-hover" open-type="navigate">
+    <view class="searchList-item">
+      <view>
+        <image src="{{ item.userPhoto }}"></image>
+        <text class="searchList-item-text">{{item.nickName }}</text>
+      </view>
+
+      <text class="iconfont iconyoujiantou"></text>
+    </view>
+  </navigator>
+
+</view>

@@ -1,0 +1,4 @@
+<!--miniprogram/pages/editUserInfo/phone/phone.wxml-->
+<button bindtap="handleBut">设置手机号</button>
+
+<input type="number" maxlength="11" value="{{phoneNumber}}" bindinput="handleText" />

@@ -1,0 +1,30 @@
+/* miniprogram/pages/user/user.wxss */
+
+.user-info {
+  display: flex;
+  align-items: center;
+  height: 200rpx;
+  border-bottom: 2rpx solid #cdcdcd;
+  font-size: 40rpx;
+}
+.user-info image {
+  width: 120rpx; 
+  height: 120rpx;
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin-right: 20rpx;
+}
+.login{background: #cdcdcd;}
+
+.user-list {margin-top: 40rpx;}
+.user-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  height: 100rpx; 
+  border-bottom: 2rpx solid #cdcdcd ;
+  padding: 10rpx;
+}
+.navigator-hover {
+  color: #1296db;
+}

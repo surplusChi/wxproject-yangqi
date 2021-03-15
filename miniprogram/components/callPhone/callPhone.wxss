@@ -1,0 +1,4 @@
+/* components/callPhone/callPhone.wxss */
+.ico {
+  font-size: 50rpx;
+}

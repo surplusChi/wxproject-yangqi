@@ -1,0 +1,22 @@
+/* miniprogram/pages/editUserInfo/editUserInfo.wxss */
+
+.editUserInfo-list {margin-top: 40rpx;}
+.editUserInfo-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  height: 100rpx; 
+  border-bottom: 2rpx solid #cdcdcd ;
+  padding: 10rpx;
+}
+.editUserInfo-list-item-num {
+  display: flex;
+  flex-direction: row;
+}
+.editUserInfo-list-tips {
+  font-size: 24rpx;
+  color: red;
+}
+.navigator-hover {
+  color: #1296db;
+}

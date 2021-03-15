@@ -1,0 +1,28 @@
+<view class="user">
+  <view class="user-info">
+    <image src="{{userPhoto}}"></image>
+    <text wx:if="{{logged}}">欢迎您：{{nickName}}</text>
+    <button class="login" disabled="{{disabled}}" wx:else open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  </view>
+
+  <view wx:if="{{logged}}" class="user-list"> 
+    <navigator url="../editUserInfo/editUserInfo" hover-class="navigator-hover" open-type="navigate">
+      <view class="user-list-item">
+        <text>编辑个人信息</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+    <navigator url="../friendList/friendList" hover-class="navigator-hover" open-type="navigate">
+      <view class="user-list-item">
+        <text>查看好友列表</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+    <navigator url="{{'../userDetail/userDetail?userId=' + id }}" hover-class="navigator-hover" open-type="navigate">
+      <view class="user-list-item">
+        <text>个人主页</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+  </view>
+</view>

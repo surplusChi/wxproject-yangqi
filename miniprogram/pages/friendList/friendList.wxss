@@ -1,0 +1,31 @@
+/* miniprogram/pages/friendList/friendList.wxss */
+.friendList{margin-top: 20rpx;}
+.friendList-text {
+  font-size: 38rpx;
+  padding: 20rpx;
+}
+.friendList-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  height: 100rpx; 
+  border-bottom: 2rpx solid #cdcdcd ;
+  padding: 10rpx;
+}
+.friendList-item view {
+  display: flex;
+  align-items: center;
+}
+.friendList-item-text {
+  text-indent: 20rpx;
+}
+.friendList-item image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navigator-hover {
+  color: #1296db;
+}
